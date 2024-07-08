@@ -1,7 +1,7 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #222;
-    color: #ddd;
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,15 +12,14 @@ body {
 .container {
     background-color: #333;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 300px;
 }
 
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #fff;
 }
 
 form {
@@ -30,31 +29,26 @@ form {
 
 label {
     margin-bottom: 8px;
-    color: #bbb;
 }
 
-input, button {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #444;
-    border-radius: 3px;
-    background-color: #555;
-    color: #ddd;
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
 }
 
 button {
+    padding: 10px;
     background-color: #4CAF50;
     color: white;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
 
 button:hover {
     background-color: #45a049;
-}
-
-#error {
-    color: red;
-    font-size: 0.8rem;
-    margin-top: 5px;
 }
